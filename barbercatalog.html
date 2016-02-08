@@ -7,7 +7,7 @@
   </head>
   <body>
       <header class="main-header">
-      <div class="conteiner">
+      <div class="container clearfix">
           <nav class="main-navigator">
              <div class="logo-barber">
               <a href="#"><img src="img/BarberLogo.jpg" width="111" height="24" alt="BarberShop"></a>
@@ -38,7 +38,7 @@
           </div>
       </div>
      </header>
-      <main class="catalog container">
+      <main class="catalog container otl clearfix">
           <h1>Средства для ухода</h1>
               <div class="bread-crumbs">
                   <ul>
@@ -52,35 +52,57 @@
                       <a href="#">Средства для ухода</a>
                   </li>
                   </ul>
-              </div>
-             <form class="filtr-gird" action="" method="">
+              </div>  
+             <form class="filtr-grid otl" action="" method="">
               <section class="catalog-made-in">
               <h2>Производители:</h2>
+                <ul> 
+                <li>   
                  <input type="checkbox" id="cb" checked="checked" name="">
                  <label for="cb">BAXTER OF CALIFORNIA</label>
+                </li> 
+                <li>     
                  <input type="checkbox" id="cb" name="">
                  <label for="cb">MR NATTY</label>
+                </li> 
+                <li>      
                  <input type="checkbox" id="cb" checked="checked" name="chebox">
                  <label for="cb">SUAVECITO</label>
+                </li>   
+                <li>     
                  <input type="checkbox" id="cb" name="">
                  <label for="cb">MALIN+GOETZ</label>
+                </li> 
+                <li>     
                  <input type="checkbox" id="cb" name="">
                  <label for="cb">MURRAY'S</label>
+                </li> 
+                <li>     
                  <input type="checkbox" id="cb" name="">
                   <label for="cb">AMERICAN CREW</label>
+                </li>    
+                </ul>    
              </section>
              <section class="groups-of-products">
                  <h2>Группы товаров:</h2>
+                <ul>  
+                <li>     
                  <input type="radio" id="radio-sort" checked="checked" name=""> 
                  <label for="radio-sort">Бритвенные принадлежности</label>
+                </li>   
+                <li>     
                  <input type="radio" id="radio-sort" name="">
                  <label for="radio-sort">Средства для ухода</label>
+                </li>   
+                <li>     
                  <input type="radio" id="radio-sort" name="">
                  <label for="radio-sort">Аксессуары</label>
+                </li>  
+                </ul>      
              </section>   
-             <button type="submit" class="show">Показать</button>
+             <button type="submit" class="show">Показать</button>  
              </form>
-             <article class="catalog-products">
+             <article class="catalog-products clearfix otl">
                  <section class="product-1">
                      <img src="img/BoCall1.jpg" width="220" height="165" alt="«Baxter of California»">
                      <p class="category">Набор для путешествий</p>
@@ -124,7 +146,7 @@
                      <div class="buy">
                          <span class="prise">300 РУБ.</span>
                          <a href="#" class="btn">Купить</a>
-                     </div>
+                     </div>    
                   </section>
                   <section class="product-6">
                      <img src="img/BofCallifnabor.jpg" width="220" height="165" alt="«Baxter of California»">
@@ -135,7 +157,7 @@
                          <a href="#" class="btn">Купить</a>
                      </div>
                   </section>
-                  <section class="next-prev">
+                  <section class="next-prev clearfix">
                       <a href="#">1</a>
                       <a href="#">2</a>
                       <a href="#">3</a>
@@ -143,23 +165,23 @@
                   </section>
                 </article>
                 </main>
-                      <footer class="main-footer">
-         <div class="container-footer">
-             <section class="contact">
+            <footer class="main-footer">
+              <div class="container">
+             <section clas="footer-contacts">
                   Барбершоп "Бородинский"<br>
                    Адрес: Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
                    <a href="#">Как нас найти?</a><br>
                    Телефон: +7 (812) 666-02-66
-             </section>
-          <section class="social">
+              </section>
+              <section class="footer-social">
               <p>Давай дружить!</p>
                <a class="social-btn social-btn-vkont" href="#">ВКонтакте</a>
                 <a class="social-btn social-btn-facebook" href="#">Фейсбук</a>
-                <a class="social-btn social-btn-insta" href="#">Инстаграм</a>  
-             </section>
-             <section class="copyright">
+                <a class="social-btn social-btn-insta" href="#">Инстаграм</a>
+              </section>
+             <section class="footer-copyright">
                  <p>Разработано:</p>
-                 <a class="btn-copyright" href="https://htmlacademy.ru">HTML Academy</a>
+                 <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
              </section>
         </div>
       </footer>
